@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2023-12-02 14:57:13Z" end-time="2023-12-02 14:57:14Z" duration="0.9607284">
+  <test-suite type="TestSuite" id="1000" name="My project" fullname="My project" runstate="Runnable" testcasecount="5" result="Passed" start-time="2023-12-02 14:57:13Z" end-time="2023-12-02 14:57:14Z" duration="0.960728" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1009" name="OculusTests.dll" fullname="E:/Unity/My project/Library/ScriptAssemblies/OculusTests.dll" runstate="Runnable" testcasecount="5" result="Passed" start-time="2023-12-02 14:57:13Z" end-time="2023-12-02 14:57:14Z" duration="0.953841" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="7520" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="InteractionTests" fullname="InteractionTests" classname="InteractionTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2023-12-02 14:57:13Z" end-time="2023-12-02 14:57:14Z" duration="0.692486" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="ParameterizedMethod" id="1004" name="InteractWithGrabbable" fullname="InteractionTests.InteractWithGrabbable" classname="InteractionTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2023-12-02 14:57:13Z" end-time="2023-12-02 14:57:14Z" duration="0.325306" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Order" value="0" />
+          </properties>
+          <test-case id="1002" name="InteractWithGrabbable([Unreachable, (0.00, 0.00, 0.00)])" fullname="InteractionTests.InteractWithGrabbable([Unreachable, (0.00, 0.00, 0.00)])" methodname="InteractWithGrabbable" classname="InteractionTests" runstate="Runnable" seed="534566637" result="Passed" start-time="2023-12-02 14:57:13Z" end-time="2023-12-02 14:57:14Z" duration="0.161357" asserts="0">
+            <properties />
+            <output><![CDATA[Unity v2022.3.4f1, Oculus Utilities v1.89.0, OVRPlugin v1.89.0, SDK v0.0.0.
+SystemHeadset None, API OpenXR
+OpenXR instance 0x0 session 0x0
+VR rendering requires one of the following device types: (Direct3D11, Direct3D12). Your graphics device: Null
+Current display frequency 0, available frequencies []
+TcpListener started. Local endpoint: 0.0.0.0:32419
+[OVRNetworkTcpServer] Start Listening on port 32419
+Local Dimming feature is not supported
+Unable to process a controller whose SampleRateHz is 0 now.
+Unable to process a controller whose SampleRateHz is 0 now.
+[OVRManager] InputFocusLost event
+[OVRNetworkTcpServer] Stopped listening
+[OVRSystemPerfMetricsTcpServer] server destroyed
+[OVRManager] OnDestroy
+]]></output>
+          </test-case>
+          <test-case id="1003" name="InteractWithGrabbable([Reachable, (0.30, 0.00, 0.35)])" fullname="InteractionTests.InteractWithGrabbable([Reachable, (0.30, 0.00, 0.35)])" methodname="InteractWithGrabbable" classname="InteractionTests" runstate="Runnable" seed="1960341164" result="Passed" start-time="2023-12-02 14:57:14Z" end-time="2023-12-02 14:57:14Z" duration="0.155871" asserts="0">
+            <properties />
+            <output><![CDATA[Unity v2022.3.4f1, Oculus Utilities v1.89.0, OVRPlugin v1.89.0, SDK v0.0.0.
+SystemHeadset None, API OpenXR
+OpenXR instance 0x0 session 0x0
+VR rendering requires one of the following device types: (Direct3D11, Direct3D12). Your graphics device: Null
+Current display frequency 0, available frequencies []
+TcpListener started. Local endpoint: 0.0.0.0:32419
+[OVRNetworkTcpServer] Start Listening on port 32419
+Local Dimming feature is not supported
+[OVRNetworkTcpServer] Stopped listening
+[OVRSystemPerfMetricsTcpServer] server destroyed
+[OVRManager] OnDestroy
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-case id="1005" name="GrabAndThrow" fullname="InteractionTests.GrabAndThrow" methodname="GrabAndThrow" classname="InteractionTests" runstate="Runnable" seed="1719302669" result="Passed" start-time="2023-12-02 14:57:14Z" end-time="2023-12-02 14:57:14Z" duration="0.358278" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Order" value="1" />
+          </properties>
+          <output><![CDATA[Unity v2022.3.4f1, Oculus Utilities v1.89.0, OVRPlugin v1.89.0, SDK v0.0.0.
+SystemHeadset None, API OpenXR
+OpenXR instance 0x0 session 0x0
+VR rendering requires one of the following device types: (Direct3D11, Direct3D12). Your graphics device: Null
+Current display frequency 0, available frequencies []
+TcpListener started. Local endpoint: 0.0.0.0:32419
+[OVRNetworkTcpServer] Start Listening on port 32419
+Local Dimming feature is not supported
+[OVRNetworkTcpServer] Stopped listening
+[OVRSystemPerfMetricsTcpServer] server destroyed
+[OVRManager] OnDestroy
+]]></output>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1006" name="MovementTests" fullname="MovementTests" classname="MovementTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2023-12-02 14:57:14Z" end-time="2023-12-02 14:57:14Z" duration="0.260037" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1007" name="MoveTest" fullname="MovementTests.MoveTest" methodname="MoveTest" classname="MovementTests" runstate="Runnable" seed="916568508" result="Passed" start-time="2023-12-02 14:57:14Z" end-time="2023-12-02 14:57:14Z" duration="0.099159" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Order" value="0" />
+          </properties>
+          <output><![CDATA[Unity v2022.3.4f1, Oculus Utilities v1.89.0, OVRPlugin v1.89.0, SDK v0.0.0.
+SystemHeadset None, API OpenXR
+OpenXR instance 0x0 session 0x0
+VR rendering requires one of the following device types: (Direct3D11, Direct3D12). Your graphics device: Null
+Current display frequency 0, available frequencies []
+TcpListener started. Local endpoint: 0.0.0.0:32419
+[OVRNetworkTcpServer] Start Listening on port 32419
+Local Dimming feature is not supported
+[OVRNetworkTcpServer] Stopped listening
+[OVRSystemPerfMetricsTcpServer] server destroyed
+[OVRManager] OnDestroy
+]]></output>
+        </test-case>
+        <test-case id="1008" name="JumpTest" fullname="MovementTests.JumpTest" methodname="JumpTest" classname="MovementTests" runstate="Runnable" seed="1904166818" result="Passed" start-time="2023-12-02 14:57:14Z" end-time="2023-12-02 14:57:14Z" duration="0.159959" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Order" value="1" />
+          </properties>
+          <output><![CDATA[Unity v2022.3.4f1, Oculus Utilities v1.89.0, OVRPlugin v1.89.0, SDK v0.0.0.
+SystemHeadset None, API OpenXR
+OpenXR instance 0x0 session 0x0
+VR rendering requires one of the following device types: (Direct3D11, Direct3D12). Your graphics device: Null
+Current display frequency 0, available frequencies []
+TcpListener started. Local endpoint: 0.0.0.0:32419
+[OVRNetworkTcpServer] Start Listening on port 32419
+Local Dimming feature is not supported
+[OVRNetworkTcpServer] Stopped listening
+[OVRSystemPerfMetricsTcpServer] server destroyed
+[OVRManager] OnDestroy
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
